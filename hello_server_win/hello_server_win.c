@@ -19,6 +19,4 @@ int main(int argc, char* argv[])
 
 	if (WSAStartup(MAKEWORD(2, 2), &wsadata) != 0)
 		ErrorHandling("WSAStartup() error!");
-
-
 }
